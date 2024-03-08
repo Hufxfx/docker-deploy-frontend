@@ -25,7 +25,7 @@ jobs:
       -
         name: Prepare the docker-compose runs
         run: |
-          ls -al
+          ls -l
           # Add any additional preparation steps here
       -
         name: Build and push
